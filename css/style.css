@@ -42,6 +42,12 @@ body {
       margin-bottom: 20px;
     }
   }
+
+  @media screen and (max-width: 441px) {
+    .cover-position {
+        top: 9em !important;
+    }
+  }
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
